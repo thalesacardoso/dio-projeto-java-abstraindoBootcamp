@@ -9,7 +9,7 @@ import java.util.Set;
 public class Bootcamp {
     private String nome;
     private String descricao;
-    private final LocalDate DATA_INICIAL = new LocalDate.now();
+    private final LocalDate DATA_INICIAL = LocalDate.now();
     private final LocalDate DATA_FINAL = DATA_INICIAL.plusDays(45);
     private Set<Dev> devsInscritos = new HashSet<>();
     private Set<Conteudo> conteudos = new LinkedHashSet<>();
